@@ -4,6 +4,13 @@ class MenuController
 {
 	public function index()
 	{
-		echo "Menu";
+		try{
+			$model = Produtos::getProducts();
+			var_dump($model);
+		}catch(Exeception $e){
+			echo $e -> getMesseger();
+			//capturado execeção criada no controller Model Postagem
+		}
+		
 	}
 }

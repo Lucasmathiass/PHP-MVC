@@ -7,29 +7,33 @@
 			overflow: hidden;
 		}
 		.nav li{
-			width: 30px;
-			margin-bottom: 90px;
-			margin-left: 20px;
+			margin-bottom: 30px;
 			position: relative;
 			top:20vh;
+		}
+		.nav i{
+			margin-left: 20px;
+			margin-bottom: 30px;
 		}
 		
 		.nav ul{
 			list-style: none;
 
 		}
-		aside {
+		aside{
 			width: 70px;
 			height: 100vh;
 			background:#ecf0f1;
 			margin: 0px;
-}
+			overflow: hidden;
+		}
 		.content{
 			width: 95vw;
 			height: 100vh;
 			position: absolute;
 			left:70px;
 			top:0px;
+			background: #f4f5f7;
 		}
 		.form-register{
 			background-color:#ecf0f1;
@@ -51,4 +55,9 @@
 			text-align:center; 
 
 			
+		}
+		#trigger{
+			position: absolute;
+			top:20vh;
+			left:80px;
 		}
